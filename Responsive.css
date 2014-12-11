@@ -11,7 +11,7 @@
 #container {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: auto;
 }
 .prim li:last-child {
     border-bottom: 0 none;
@@ -30,7 +30,6 @@
 }
 .prim {
     float: left;
-    font-weight: bold;
     margin: 0 0 2em;
 }
 body {
@@ -54,7 +53,7 @@ header h1 {
     font-size: 14pt;
     margin-top: 5px;
     padding: 10px 0 0 10px;
-    vertical-align: bottom;
+    vertical-align: central;
 }
 form{
     padding: 0px;
@@ -68,8 +67,8 @@ table#loc tbody td{
     padding: .6rem;
 }
 table#loc tbody tr td:first-child{
-    background: #333;
-    color: #ffffff;
+/*    background: #333;
+    color: #ffffff;*/
 }
 table#loc tbody td:before{
     content: attr(data-th);
@@ -78,4 +77,15 @@ table#loc tbody td:before{
 }
 label{
     font-size: 80%;
+}
+footer{
+    clear: both;
+    float: bottom;
+}
+footer ul{
+    padding-left: 0;
+    padding-right: 0;
+}
+img#scale{
+    width:50%;
 }
