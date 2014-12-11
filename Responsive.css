@@ -1,0 +1,81 @@
+.prim ul, .prim ol {
+    border: 1px solid #e6e6e6;
+    float: left;
+    padding: 0;
+    width: auto;
+}
+.prim li {
+    border-bottom: 0 none;
+    float: left;
+}
+#container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.prim li:last-child {
+    border-bottom: 0 none;
+}
+.logo {
+    height: 10vh;
+}
+.prim a {
+    color: #333;
+    display: block;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+}
+.prim a:hover {
+    background-color: #f8f8f8;
+}
+.prim {
+    float: left;
+    font-weight: bold;
+    margin: 0 0 2em;
+}
+body {
+    font: 65%/1.4 helvetica,arial,sans-serif;
+    padding: 2em 1em;
+}
+p {
+    line-height: 1.4;
+    margin: 0 0.3em 1em;
+}
+article {
+    clear: both;
+}
+header {
+    background-color: white;
+    color: black;
+    margin: auto;
+    overflow: auto;
+}
+header h1 {
+    font-size: 14pt;
+    margin-top: 5px;
+    padding: 10px 0 0 10px;
+    vertical-align: bottom;
+}
+form{
+    padding: 0px;
+    width:auto;
+}
+table#loc thead{
+    display: none;
+}
+table#loc tbody td{
+    display: block;
+    padding: .6rem;
+}
+table#loc tbody tr td:first-child{
+    background: #333;
+    color: #ffffff;
+}
+table#loc tbody td:before{
+    content: attr(data-th);
+    display: inline-block;
+    width: 6rem;
+}
+label{
+    font-size: 80%;
+}
